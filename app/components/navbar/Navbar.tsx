@@ -1,3 +1,5 @@
+'use client';
+
 import { Container, Logo, Search, UserMenu } from '../index';
 
 const Navbar = () => {
