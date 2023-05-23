@@ -7,3 +7,7 @@ body,
 :root {
   height: 100%;
 }
+
+.container__grid .pagebuilder-column-line {
+  flex-wrap: nowrap !important;
+}
