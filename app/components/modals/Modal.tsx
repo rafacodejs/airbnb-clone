@@ -68,7 +68,7 @@ const Modal: React.FC<ModalProps> = ({
         <div className='relative w-full md:w-4/6 lg:w-3/6 xl:w-2/5 my-6 mx-auto h-full lg:h-auto md:h-auto'>
           {/*CONTENT */}
           <div
-            className={`translate duration-300 h-full 
+            className={`translate duration-300 h-full mt-48 mb-5
             ${
               showModal
                 ? 'translate-y-0 opacity-100'
@@ -109,6 +109,7 @@ const Modal: React.FC<ModalProps> = ({
                     onClick={handleSubmit}
                   />
                 </div>
+                {footer}
               </div>
             </div>
           </div>
